@@ -2,3 +2,5 @@
 /public
 /views
 /config.env
+.idea
+.DS_Store
