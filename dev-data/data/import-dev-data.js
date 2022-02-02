@@ -8,7 +8,7 @@ const Reviews = require('../../models/reviewModel');
 
 dotenv.config({
   //.始终代表根目录在node js当中
-  path: './config.env'
+  path: '../../config.env'
 });
 console.log(process.env);
 const db = process.env.DATABASE.replace('<PASSWORD>', process.env.DATABASE_PASSWORD);
